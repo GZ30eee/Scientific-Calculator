@@ -1,0 +1,79 @@
+body, html {
+    height: 100%;
+    margin: 0; /* Remove default margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Optional, to give the background a color */
+  }
+  
+  .calculator {
+    max-width: 400px; /* Reduced width to make it stand taller */
+    height: 450px; /* Increased height to make it taller than wide */
+    background-color: beige;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for better visibility */
+  }
+  
+  
+  input[type=text] {
+    width: 100%;
+    height: 50px; /* Increased height for input */
+    border-radius: 5px;
+    border: 0px;
+    background-color: #333333;
+    color: #d9d9d9;
+    padding: 15px;
+    margin: 10px 0; /* Equal margin top and bottom */
+}
+
+  
+  .calc-buttons {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    height: 100%;
+  }
+  
+  .button {
+    margin: 2px; /* Reduced margin for top and bottom spacing */
+    width: 60px; /* Adjust width to make the buttons fit better */
+    height: 40px; /* Increased button height for better spacing */
+    border: none;
+    border-radius: 4px;
+    color: #000000;
+    cursor: pointer;
+}
+
+  
+  button:hover {
+    background-color: hsla(180, 100%, 40%, 0.3);
+    transition: .2s;
+  }
+  
+  .functions-one,
+  .functions-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .triggers {
+    background-color: #ffc266;
+  }
+  
+  .numbers {
+    background-color: #999999;
+  }
+  
+  .basic-stuff {
+    background-color: #80d4ff;
+  }
+  
+  .complex-stuff {
+    background-color: #80ffff;
+  }
+  
